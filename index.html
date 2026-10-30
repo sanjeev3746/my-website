@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeev Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Sanjeev<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1>Sanjeev Kumar</h1>
+                <p class="hero-role">B.Sc. (Hons.) Computer Science & Design Graduate</p>
+                <p class="hero-tagline">Full-Stack Developer · AI Enthusiast · Interaction Designer</p>
+                <p class="hero-desc">
+                    Building intelligent systems, data-driven platforms, and thoughtful digital experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="resume.pdf" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://linkedin.com/in/sanjeev-kumar-3b80a424a" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/sanjeev3746" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:sanjeev28052004@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+918534839519" title="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="images/profile.jpg" alt="Sanjeev Kumar">
+                    <div class="image-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">About</p>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p>
+                        I am a B.Sc. (Hons.) Computer Science and Design graduate from <strong>FLAME University, Pune</strong> 
+                        (100% Merit Scholarship). I enjoy building full-stack applications, working with AI/ML systems, 
+                        and designing thoughtful user experiences.
+                    </p>
+                    <p>
+                        Through internships and projects, I have gained hands-on experience in web development, 
+                        data analysis, AI systems (RAG, fine-tuning), and interaction design. I am passionate 
+                        about creating technology that is both powerful and human-centered.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-number">5+</span>
+                            <span class="highlight-text">Internships</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">8+</span>
+                            <span class="highlight-text">Projects</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">9</span>
+                            <span class="highlight-text">Certificates</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Education</p>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3>FLAME University, Pune</h3>
+                            <span class="timeline-date">Aug 2022 – May 2026</span>
+                        </div>
+                        <p class="timeline-degree">B.Sc. (Hons.) in Computer Science and Design · Completed</p>
+                        <p class="timeline-extra">100% Merit Scholarship · CGPA: 7.0</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3>Vidyagyan Leadership Academy, Bulandshahr</h3>
+                            <span class="timeline-date">June 2015 – May 2022</span>
+                        </div>
+                        <p class="timeline-degree">CBSE High and Secondary School</p>
+                        <p class="timeline-extra">10th: 92.5% · 12th: 92%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Experience</p>
+                <h2 class="section-title">Internship Experience</h2>
+            </div>
+            <div class="cards-grid">
+                <div class="card exp-card">
+                    <div class="card-top">
+                        <div>
+                            <h3>Digi Electro Media</h3>
+                            <p class="card-role">Web Developer</p>
+                        </div>
+                        <span class="badge">May – June 2025</span>
+                    </div>
+                    <p class="card-location"><i class="fas fa-map-marker-alt"></i> New Delhi · Full-time, In-person</p>
+                    <ul>
+                        <li>Maintained and enhanced WordPress web applications, improving reliability and functionality.</li>
+                        <li>Customized and updated production news websites using CMS WordPress and HTML.</li>
+                        <li>Resolved layout, content, and usability issues under supervision.</li>
+                    </ul>
+                </div>
+
+                <div class="card exp-card">
+                    <div class="card-top">
+                        <div>
+                            <h3>Netzent Technologies</h3>
+                            <p class="card-role">Full Stack Developer Intern</p>
+                        </div>
+                        <span class="badge">May – July 2024</span>
+                    </div>
+                    <p class="card-location"><i class="fas fa-map-marker-alt"></i> Lucknow</p>
+                    <ul>
+                        <li>Received hands-on training in HTML/CSS and modern software development practices.</li>
+                        <li>Developed responsive interfaces and structured layouts following industry standards.</li>
+                    </ul>
+                </div>
+
+                <div class="card exp-card">
+                    <div class="card-top">
+                        <div>
+                            <h3>Ek Pahel B.R. Memorial Welfare Society</h3>
+                            <p class="card-role">Social Intern</p>
+                        </div>
+                        <span class="badge">May – June 2023</span>
+                    </div>
+                    <p class="card-location"><i class="fas fa-map-marker-alt"></i> NGO Internship</p>
+                    <ul>
+                        <li>Analyzed student and event data using Excel for reporting and program evaluation.</li>
+                        <li>Designed interactive learning programs (sports, debates, quizzes, public speaking).</li>
+                        <li>Assisted in teaching, rural education surveys, and medical & social camps.</li>
+                    </ul>
+                </div>
+
+                <div class="card exp-card">
+                    <div class="card-top">
+                        <div>
+                            <h3>WageIndicator Foundation</h3>
+                            <p class="card-role">Social Media & Research Intern</p>
+                        </div>
+                        <span class="badge">Oct 2022 – Apr 2023</span>
+                    </div>
+                    <p class="card-location"><i class="fas fa-map-marker-alt"></i> Flame Research Lab, Pune</p>
+                    <ul>
+                        <li>Created social media content for Instagram, Facebook, and LinkedIn to increase outreach.</li>
+                        <li>Analyzed website content and designed visuals for global social media platforms.</li>
+                        <li>Collected actual-price data from web-shops for cost-of-living and living wages analysis.</li>
+                    </ul>
+                </div>
+
+                <div class="card exp-card">
+                    <div class="card-top">
+                        <div>
+                            <h3>Discover India Program (DIP)</h3>
+                            <p class="card-role">Field Research</p>
+                        </div>
+                        <span class="badge">February 2024</span>
+                    </div>
+                    <p class="card-location"><i class="fas fa-map-marker-alt"></i> Bhadohi</p>
+                    <ul>
+                        <li>Researched traditional carpet weaving, local artisans, and cultural heritage.</li>
+                        <li>Documented sustainability challenges, government & NGO interventions, and socio-economic impact.</li>
+                        <li>Developed skills in field research, documentation, and cross-cultural communication.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Portfolio</p>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="cards-grid projects-grid">
+                <div class="card project-card">
+                    <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Library Footfall Analytics</h3>
+                    <p class="tech-stack">React.js · Node.js · Express · MySQL · MSSQL · Python · Gemini API</p>
+                    <ul>
+                        <li>Full-stack platform converting biometric logs into live occupancy, trends & insights.</li>
+                        <li>46 REST API endpoints with JWT auth. Deployed on university server (Apache + HTTPS).</li>
+                        <li>150 automated tests. Commended in writing by library staff.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    <h3>RAG & Fine-Tuning for Domain Q&A</h3>
+                    <p class="tech-stack">Python · Llama 3.2 · QLoRA · ChromaDB · FAISS</p>
+                    <ul>
+                        <li>Fine-tuned Llama 3.2 on 3,000+ QA pairs; built RAG over 2,939 chunks.</li>
+                        <li>RAG scored 4.5/5 terminology & 4.3/5 reasoning; cut hallucination 20% → 5%.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-icon"><i class="fas fa-envelope-open-text"></i></div>
+                    <h3>Customer Response Copilot</h3>
+                    <p class="tech-stack">React.js · Node.js · Groq API · Firebase</p>
+                    <ul>
+                        <li>AI email assistant classifying sentiment, urgency, churn risk + draft replies.</li>
+                        <li>Gmail IMAP/OAuth, batch analysis, scheduled SMTP, response caching.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Django Chat Application</h3>
+                    <p class="tech-stack">Django · HTML/CSS/JS · Gemini AI</p>
+                    <ul>
+                        <li>Real-time messaging with rooms, file sharing, edit/delete/forward.</li>
+                        <li>Gemini AI for conversation summarization and Q&A.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>I Agricult – Agriculture Marketplace</h3>
+                    <p class="tech-stack">C++ · OOP · STL</p>
+                    <ul>
+                        <li>Role-based marketplace: login, crop listings, pricing, stock & payment history.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-icon"><i class="fas fa-baseball-ball"></i></div>
+                    <h3>IPL Data Analysis Dashboard</h3>
+                    <p class="tech-stack">C++ · STL · Algorithms</p>
+                    <ul>
+                        <li>1,600+ line analytics app on IPL data (2008–2023). Fantasy team modules.</li>
+                        <li>Benchmarked Merge, Quick & Bucket Sort; cleaned missing values.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-icon"><i class="fas fa-blind"></i></div>
+                    <h3>Smart Cane for Visually Impaired</h3>
+                    <p class="tech-stack">Interaction Design · Prototyping</p>
+                    <ul>
+                        <li>Ultrasonic + soil moisture sensors with haptic/audio alerts & emergency button.</li>
+                        <li>User research with visually impaired participants.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-icon"><i class="fas fa-vr-cardboard"></i></div>
+                    <h3>Virtual Fitness Studio</h3>
+                    <p class="tech-stack">Unity · VR</p>
+                    <ul>
+                        <li>Immersive VR fitness app with gym & outdoor scenes, progression & music playlists.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Credentials</p>
+                <h2 class="section-title">Certificates & Achievements</h2>
+            </div>
+            <div class="certificates-grid">
+                <div class="cert-card" data-cert="1">
+                    <div class="cert-image">
+                        <img src="images/DigiElectroMedia.jpg" alt="Digi Electro Media Internship Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Internship Completion</h3>
+                        <p>Digi Electro Media · Web Developer</p>
+                        <span class="cert-date">May – June 2025</span>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-cert="2">
+                    <div class="cert-image">
+                        <img src="images/WageIndicator.jpg" alt="WageIndicator Foundation Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Internship Completion</h3>
+                        <p>WageIndicator Foundation · Social Media & Research</p>
+                        <span class="cert-date">Oct 2022 – Apr 2023</span>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-cert="3">
+                    <div class="cert-image">
+                        <img src="images/Ek_Pahel.jpg" alt="Ek Pahel Internship Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Internship Certificate</h3>
+                        <p>Ek Pahel B.R. Memorial Welfare Society</p>
+                        <span class="cert-date">May – June 2023</span>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-cert="4">
+                    <div class="cert-image">
+                        <img src="images/Netzent_Technologies.jpg" alt="Netzent Technologies Internship Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Full Stack Developer Internship</h3>
+                        <p>Netzent Technologies</p>
+                        <span class="cert-date">May – July 2024</span>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-cert="5">
+                    <div class="cert-image">
+                        <img src="images/AI_Literacy.jpg" alt="Building AI Literacy Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Building AI Literacy</h3>
+                        <p>LinkedIn Learning Path</p>
+                        <span class="cert-date">March 2025</span>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-cert="6">
+                    <div class="cert-image">
+                        <img src="images/Teamwork_Skills.jpg" alt="Improve Your Teamwork Skills Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Improve Your Teamwork Skills</h3>
+                        <p>LinkedIn Learning Path</p>
+                        <span class="cert-date">September 2023</span>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-cert="7">
+                    <div class="cert-image">
+                        <img src="images/Udemy.jpg" alt="The Complete Full-Stack Web Development Bootcamp">
+                    </div>
+                    <div class="cert-info">
+                        <h3>The Complete Full-Stack Web Development Bootcamp</h3>
+                        <p>Udemy · Dr. Angela Yu</p>
+                        <span class="cert-date">July 2026 · 62 hours</span>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-cert="8">
+                    <div class="cert-image">
+                        <img src="images/Unstop.jpg" alt="Unstop Certificate of Participation">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Certificate of Participation</h3>
+                        <p>Unstop · Engineering: February Series</p>
+                        <span class="cert-date">February 2025</span>
+                    </div>
+                </div>
+
+                <div class="cert-card" data-cert="9">
+                    <div class="cert-image">
+                        <img src="images/Internship_Studio.jpg" alt="Internship Studio Certificate of Participation">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Certificate of Participation</h3>
+                        <p>Internship Studio · Common Internship Test</p>
+                        <span class="cert-date">May 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div class="modal" id="certModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <img src="" alt="Certificate" id="modalImage">
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Expertise</p>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C++</span><span>C</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Design & Development</h3>
+                    <div class="skill-tags">
+                        <span>React.js</span><span>WordPress</span><span>UI/UX Design</span><span>Figma</span><span>Canva</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span><span>MSSQL</span><span>SQLite</span><span>Query Optimization</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>AI / ML</h3>
+                    <div class="skill-tags">
+                        <span>RAG</span><span>QLoRA Fine-Tuning</span><span>ChromaDB</span><span>FAISS</span><span>Gemini API</span><span>Groq API</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Core CS & Tools</h3>
+                    <div class="skill-tags">
+                        <span>DSA</span><span>OOP</span><span>DBMS</span><span>Git & GitHub</span><span>Linux</span><span>VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Beyond Code</p>
+                <h2 class="section-title">Leadership & Achievements</h2>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>Head of Events</h3>
+                    <p>FLAME Run Club</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-users"></i></div>
+                    <h3>Team Member</h3>
+                    <p>FLAME Admissions & Financial Aid Team</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+                    <h3>Bronze Medalist</h3>
+                    <p>CBSE Football Cluster</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Contact</p>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-wrapper">
+                <p class="contact-intro">
+                    I'm always open to discussing new projects, creative ideas, or opportunities to collaborate.
+                </p>
+                <div class="contact-cards">
+                    <a href="mailto:sanjeev28052004@gmail.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <span>sanjeev28052004@gmail.com</span>
+                    </a>
+                    <a href="tel:+918534839519" class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 8534839519</span>
+                    </a>
+                    <a href="https://linkedin.com/in/sanjeev-kumar-3b80a424a" target="_blank" class="contact-card">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                    <a href="https://github.com/sanjeev3746" target="_blank" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub Profile</span>
+                    </a>
+                </div>
+                <div class="contact-resume">
+                    <a href="resume.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i> Download My Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Sanjeev Kumar. Designed & Built with care.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
